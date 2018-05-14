@@ -1,11 +1,19 @@
 spring:
+  # redis
   redis:
     host:
     port: 6379
     database: 1
     password:
+  # mongodb
   data:
     mongodb:
       host:
       port: 27017
       password:
+  # mysql
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dbName?characterEncoding=utf8&useSSL=true
+    username: root
+    password: root
