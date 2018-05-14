@@ -1,0 +1,11 @@
+spring:
+  redis:
+    host:
+    port: 6379
+    database: 1
+    password:
+  data:
+    mongodb:
+      host:
+      port: 27017
+      password:
